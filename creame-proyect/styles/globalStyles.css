@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+:root{
+    --primary-font: 'Work Sans', serif;
+    --primary-weight: bold;
+    --secondary-weight: normal;
+    --tertiary-weight: lighter;
+    --primary-size:50px;
+    --secondary-size:34px;
+    --tertiary-size:28px;
+    --quaternary-size:22px;
+    --small-size:16px;
+    --first-color:#74A4BC;
+    --second-color:#D0D4B4;
+    --third-color:#7C5808;
+    --fourth-color:#F7E4B3;
+    --fiveth-color:#C78F19;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,53 @@
+.FirstSectionContainer{
+    display: grid;
+    grid-template-columns: minmax(300px,4fr) 3fr;
+}
+
+.TextBtnContainer{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+.TextContainer{
+    grid-column: 1/2;
+}
+
+.TopText{
+    font-size: var(--primary-size);
+    font-weight: var(--primary-weight);
+}
+
+.SecondText{
+    font-size: var(--small-size);
+    font-weight: var(--secondary-weight);
+    margin-bottom: -120px;
+}
+
+.PrimaryButton{
+    /* width: minmax(184px,184px);
+    height: minmax(40px,40px); */
+    width: 184px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: var(--first-color);
+    font-size: var(--small-size);
+    font-weight: var(--secondary-weight);
+    cursor: pointer;
+
+
+}
+
+.PrinterImgContainer{
+  margin-top: 90px;
+  grid-column: 2/3;
+}
+
+.StatisticsContainer{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    margin-top: -80px;
+}
+
